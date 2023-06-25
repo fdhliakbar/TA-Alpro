@@ -2,17 +2,18 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
     <style>
       .header h1 {
         font-family: 'Caesar Dressing';
+        letter-spacing: 5px;
       }
-    </style> -->
+    </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Ini Gudang</h1>
+  <h1>MENG-ALPRO</h1>
   <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
 </div>
 
@@ -32,9 +33,10 @@
   </div>
   <div class="rightcolumn">
     <div class="card">
-      <h2>Filter Data</h2>
+      <h2>Fitur</h2>
       <a href="#">Urutkan ID Kecil ke Besar</a>
-      <a href="#" style='padding-bottom: 20px'>Urutkan ID Besar ke Kecil</a><br><br>
+      <a href="#">Urutkan ID Besar ke Kecil</a>
+      <a href="#" style='padding-bottom: 20px'>Tambah Data Barang</a>
       <form action="search1.php" method="get">
         <input type="text" name="search" placeholder="Cari ID Barang">
         <input type="submit" value="Cari" style="color: #fff; background-color: #5664E9">

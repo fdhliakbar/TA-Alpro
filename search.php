@@ -34,7 +34,7 @@ if (isset($_GET['search'])) {
         }
         echo "</table>";
     } else {
-        echo "ID Tidak Ditemukan ditemukan";
+        echo "ID Tidak Ditemukan";
     }
 
     

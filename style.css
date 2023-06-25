@@ -23,7 +23,6 @@ body {
 }
 
 .header h1 {
-  /* letter-spacing: 5px; */
   text-transform: uppercase;
   color: #5664E9;
   color: var(--primary);
@@ -122,6 +121,11 @@ body {
 }
 
 .footer p, b{
+  color: white;
+}
+
+th{
+  background-color: #5664E9;
   color: white;
 }
 
