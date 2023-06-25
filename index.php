@@ -2,11 +2,17 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
+    <style>
+      .header h1 {
+        font-family: 'Caesar Dressing';
+      }
+    </style> -->
 </head>
 <body>
 
 <div class="header">
-  <h1>My Website</h1>
+  <h1>Ini Gudang</h1>
   <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
 </div>
 
@@ -28,17 +34,17 @@
     <div class="card">
       <h2>Filter Data</h2>
       <a href="#">Urutkan ID Kecil ke Besar</a>
-      <a href="#">Urutkan ID Besar ke Kecil</a><br><br>
+      <a href="#" style='padding-bottom: 20px'>Urutkan ID Besar ke Kecil</a><br><br>
       <form action="search1.php" method="get">
         <input type="text" name="search" placeholder="Cari ID Barang">
-        <input type="submit" value="Cari">
+        <input type="submit" value="Cari" style="color: #fff; background-color: #5664E9">
       </form>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <p>@Copyright <b>Meng-Alpro 2023</b></p>
 </div>
 
 </body>
