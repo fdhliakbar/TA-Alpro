@@ -1,3 +1,9 @@
+:root {
+  --primary: #5664E9;
+  --second: #2A2A2A;
+  --bg: #f1f1f1;
+}
+
 *{
 box-sizing: border-box;
 }
@@ -5,14 +11,14 @@ box-sizing: border-box;
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: var(--bg);
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: var(--second);
 }
 
 .header h1 {
@@ -22,14 +28,14 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--primary);
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--primary);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,7 +44,7 @@ body {
 /* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: var(--second);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -52,21 +58,21 @@ body {
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: var(--bg);
   padding-left: 20px;
 }
 
 .card a{
   float: left;
   display: block;
-  color: #333;
+  color: var(--second);
   text-align: center;
   padding-bottom: 5px;
   text-decoration: none;
 }
 
 .card a:hover {
-  color: grey;
+  color: var(--primary);
 }
 
 /* Fake image */
