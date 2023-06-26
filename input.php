@@ -13,8 +13,8 @@
 <body>
 
 <div class="header">
-  <h1>MENG-ALPRO</h1>
-  <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
+    <a href="index.php"><h1>MENG-ALPRO</h1></a>
+    <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
 </div>
 
 <div class="topnav"></div>
@@ -23,16 +23,20 @@
   <div class="leftcolumn">
     <div class="card">
       <h2>Input Data Product</h2>
-      <form action="#">
-        <label for="input-product">Nama Product: </label>
-        <input type="text" name="input-product" placeholder="Masukkan nama product">
-        <br>
-        <label for="id-product">ID Product: </label>
+      <form action="storedData.php" method="post">
+        <label for="input-product">Nama Product : </label>
+        <input type="text" name="name-product" placeholder="Masukkan nama product">
+        <br><br>
+        <label for="id-product">ID Product : </label>
         <input type="number" name="id-product" placeholder="Masukkan id product">
-        <label for="price-product">Harga Product</label>
-        <input type="number" name="price-product">
-        <label for="stok-product">Stok Produk</label>
-        <input type="number" name="stok-product" id="">
+        <br><br>
+        <label for="price-product">Harga Product : </label>
+        <input type="number" name="price-product" placeholder="Masukkan Harga product">
+        <br><br>
+        <label for="stok-product">Stok Produk : </label>
+        <input type="number" name="stock-product"  placeholder="Masukkan stok product">
+        <br><br>
+        <input type="submit" value="Submit">
       </form>
       </div>
   </div>
