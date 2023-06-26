@@ -29,8 +29,3 @@ include 'db.php';
 </body>
 
 </html>
-
-<!-- <form action="" method="get">
-    <input type="text" name="search" placeholder="Cari barang">
-    <input type="submit" value="Cari">
-</form> -->
