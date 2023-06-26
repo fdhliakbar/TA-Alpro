@@ -36,7 +36,5 @@ if (isset($_GET['search'])) {
     } else {
         echo "ID Tidak Ditemukan";
     }
-
-    
 }
 ?>
