@@ -13,31 +13,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $gudang[$i]['nama'] = $input_name;
     $gudang[$i]['id'] = $input_id;
     $gudang[$i]['harga'] = $input_price;
-    $gudang[$i]['stok'] = $input_stock;  
+    $gudang[$i]['stok'] = $input_stock;
 
-  // Split the input by commas
-//   $values = explode(",", $input);
-
-    //$values[100][100];
-
-  // Determine the number of columns
-//   $count = count($values);
-//   $columns = ($count > 0) ? ceil(sqrt($count)) : 0;
-
-//   // Initialize an empty 2D array
-//   $array2D = array();
-
-  // Populate the 2D array with values
-//   for ($i = 0; $i < $count; $i += $columns) {
-//     $row = array_slice($values, $i, $columns);
-//     $array2D[] = $row;
-//   }
-
-
-
-  // Display the 2D array
-  echo "<pre>";
-  print_r($gudang);
-  echo "</pre>";
+    // Display the 2D array
+    echo "<pre>";
+    print_r($gudang);
+    echo "</pre>";
 }
 ?>
