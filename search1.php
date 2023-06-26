@@ -15,7 +15,9 @@
 <body>
 
     <div class="header">
-        <h1>MENG-ALPRO</h1>
+        <a href="index.php">
+            <h1>MENG-ALPRO</h1>
+        </a>
         <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
     </div>
 
@@ -26,15 +28,15 @@
             <div class="card">
                 <h2>Data Barang</h2>
                 <?php
-        include 'Sorting/descending.php';
+        include 'search.php';
       ?>
             </div>
         </div>
         <div class="rightcolumn">
             <div class="card">
                 <h2>Fitur</h2>
-                <a href="Sorting/kecil.php">Urutkan ID Kecil ke Besar</a>
-                <a href="Sorting/besar.php">Urutkan ID Besar ke Kecil</a>
+                <a href="#">Urutkan ID Kecil ke Besar</a>
+                <a href="#">Urutkan ID Besar ke Kecil</a>
                 <a href="#" style='padding-bottom: 20px'>Tambah Data Barang</a>
                 <form action="search1.php" method="get">
                     <input type="text" name="search" placeholder="Cari ID Barang">
